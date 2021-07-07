@@ -24,12 +24,13 @@ function createGalleryView() {
         captionDiv.classList.add("image-caption");
         captionDiv.id = `caption${indx}`;
         captionDiv.innerHTML = element.caption;
-        truncateUtil(captionDiv);
         wrapperDiv.appendChild(captionDiv);
 
         // adding wrapperDiv to galleryDIv...
         galleryDiv.appendChild(wrapperDiv);
-        
+
+        // truncate caption in gallery...
+        truncateUtil(captionDiv);
     });
 }
 

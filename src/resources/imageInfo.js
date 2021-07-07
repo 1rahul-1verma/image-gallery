@@ -1,6 +1,6 @@
 const imgInfo = [
     {
-      caption: "You can not look at a sleeping cat and feel tense.",
+      caption: "You can  cat and feel tense.",
       src: "src/Images/cat.jpeg",
       selected: true
     },
