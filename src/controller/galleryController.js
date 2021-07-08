@@ -1,6 +1,6 @@
 import { modelSelect, unselectAll } from "../model/model.js";
-import { createGalleryView } from "../view/galleryView.js";
-import { createDisplayView } from "../view/displayView.js";
+import { updateGallery } from "../view/galleryView.js";
+import { updateDisplay } from "../view/displayView.js";
 
 // function that act as callback function for event Listeners in view.. 
 function eventGallery(indx) {
@@ -9,8 +9,8 @@ function eventGallery(indx) {
     modelSelect(indx);
 
     //interaction with view..
-    createDisplayView();
-    createGalleryView();
+    updateDisplay(indx);
+    updateGallery(indx);
 }
 
 export { eventGallery };

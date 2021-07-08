@@ -3,6 +3,7 @@
     flex: none;
     justify-content: center;
     margin: auto;
+    margin-top: 30px;
 }
 
 .image-gallery {
@@ -15,16 +16,16 @@
 .images {
     display: flex;
     flex: none;
-    height: 60px;
+    height: 55px;
     width: 270px;
     margin: 5px;
     border-radius: 10px;
-    font-size: 1.1em;
+    font-size: 1.0em;
 }
 
 .image-caption {
-    height: 50px;
-    width: 160px;
+    height: 45px;
+    width: 190px;
     margin: 2px;
     border-radius: 5px;
     vertical-align: middle;
@@ -34,20 +35,20 @@
     display: flex;
     flex-direction: column;
     flex: 0 0 auto;
-    height: 95vh;
-    width: 30%;
+    height: 90vh;
+    width: 27%;
     margin: 10px;
 }
 
 .image-display-caption {
     width: 100%;
-    font-size: 1.2em;
+    font-size: 1.4em;
     text-align: center;
 }
 
 .option-image {
-    height : 50px;
-    width: 50px;
+    height : 45px;
+    width: 45px;
     border-radius: 5px;
     margin-top: 5px;
     margin-left: 5px;
@@ -59,9 +60,13 @@
     width: 30vw;
     height: 120vh;
     border: 0.5px solid black;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .images[data-selected="selected"] {
-    background-color: rgb(120, 120, 224);
+    background-color: rgb(82, 133, 230);
+}
+
+.dragging {
+    opacity: 50%;
 }
