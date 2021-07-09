@@ -1,6 +1,0 @@
-
-function eventDisplay(){
-
-}
-
-export { eventDisplay };
