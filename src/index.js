@@ -1,3 +1,3 @@
-import { controller } from "./controller/controller.js";
+import { Controller } from "./controller/controller.js";
 
-controller();
+new Controller();

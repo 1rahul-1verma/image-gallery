@@ -1,10 +1,7 @@
 
 function truncateUtil(div) {
-    console.log(div.clientHeight, div.scrollHeight);
-    console.log(div.clientWidth, div.scrollWidth);
     if(div.clientHeight >= div.scrollHeight) 
         return ;
-    console.log("here");
     let content = div.textContent;
     let letter = content.split("");
     let low = 1, 
